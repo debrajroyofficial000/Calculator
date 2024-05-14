@@ -1,4 +1,4 @@
-# Calculator
+# EasyCalcy
 
 A basic calculator application built using HTML, CSS, and JavaScript. This calculator supports basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
@@ -51,4 +51,4 @@ simple-calculator/
 
 ## DEMO
 
-[Demo]()
+[Demo](https://664357cac788611534832980--easycalcy.netlify.app/)

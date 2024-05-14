@@ -11,6 +11,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+h1 {
+  margin: 1rem 0;
 }
 /* Main calculator div */
 .calculator {
