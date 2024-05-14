@@ -41,13 +41,13 @@ To run this project, you only need a modern web browser.
 
 simple-calculator/
 │
-├── assets # assets for screenshots
-│ ├── s1.png
-│ ├── s2.png
-├── index.html # The main HTML file
-├── style.css # The CSS file for styling
-├── script.js # The JavaScript file for calculator functionality
-└── README.md # Project documentation
+|-- assets # assets for screenshots
+│ |-- s1.png
+│ |-- s2.png
+|-- index.html # The main HTML file
+|-- style.css # The CSS file for styling
+|-- script.js # The JavaScript file for calculator functionality
+|-- README.md # Project documentation
 
 ## DEMO
 
