@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background: #818181;
+  color: whitesmoke;
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Main calculator div */
+.calculator {
+  max-width: 400px;
+  width: 100%;
+}
+/* Display div */
+.viewEquation {
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  font-weight: 700px;
+  text-align: right;
+  background: #313131;
+}
+
+/* Buttons div */
+.btnContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+/* Single button */
+.button {
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.button:hover {
+  background: lightgray;
+}
+/* Some specific buttons  */
+.operator {
+  background: lightgray;
+}
+#equal {
+  grid-row: span 3;
+}
+#ac {
+  grid-column: span 2;
+  background: rgb(218, 31, 31);
+}
+#ac:hover {
+  background: orangered;
+}
